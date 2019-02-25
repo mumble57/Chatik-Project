@@ -12,7 +12,7 @@
 		830A686D220D7A4F0079E2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830A686B220D7A4F0079E2E3 /* Main.storyboard */; };
 		830A686F220D7A4F0079E2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830A686E220D7A4F0079E2E3 /* Assets.xcassets */; };
 		830A6872220D7A4F0079E2E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830A6870220D7A4F0079E2E3 /* LaunchScreen.storyboard */; };
-		8367F493221610E3001BBA87 /* clk55.png in Resources */ = {isa = PBXBuildFile; fileRef = 8367F492221610E3001BBA87 /* clk55.png */; };
+		837922C1221DBB7900F0E19E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837922C0221DBB7900F0E19E /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		830A686E220D7A4F0079E2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830A6871220D7A4F0079E2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830A6873220D7A4F0079E2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8367F492221610E3001BBA87 /* clk55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clk55.png; path = ../../../../clk55.png; sourceTree = "<group>"; };
+		837922C0221DBB7900F0E19E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		830A6866220D7A4F0079E2E3 /* Chatik */ = {
 			isa = PBXGroup;
 			children = (
-				8367F492221610E3001BBA87 /* clk55.png */,
 				830A6867220D7A4F0079E2E3 /* AppDelegate.swift */,
 				830A6869220D7A4F0079E2E3 /* ProfileViewController.swift */,
 				830A686B220D7A4F0079E2E3 /* Main.storyboard */,
 				830A686E220D7A4F0079E2E3 /* Assets.xcassets */,
 				830A6870220D7A4F0079E2E3 /* LaunchScreen.storyboard */,
 				830A6873220D7A4F0079E2E3 /* Info.plist */,
+				837922C0221DBB7900F0E19E /* TableViewController.swift */,
 			);
 			path = Chatik;
 			sourceTree = "<group>";
@@ -126,7 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8367F493221610E3001BBA87 /* clk55.png in Resources */,
 				830A6872220D7A4F0079E2E3 /* LaunchScreen.storyboard in Resources */,
 				830A686F220D7A4F0079E2E3 /* Assets.xcassets in Resources */,
 				830A686D220D7A4F0079E2E3 /* Main.storyboard in Resources */,
@@ -141,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				830A686A220D7A4F0079E2E3 /* ProfileViewController.swift in Sources */,
+				837922C1221DBB7900F0E19E /* TableViewController.swift in Sources */,
 				830A6868220D7A4F0079E2E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
